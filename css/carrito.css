@@ -1,0 +1,43 @@
+.tblcart-ttl{ font:12px/13px Arial, Helvetica, sans-serif; text-decoration:underline; color: #333333;}
+.tblcart-sudl{ text-decoration:none;}
+.tblcart-cntd{ 
+	width: 35px; 
+	height:12px;
+	background:#E9F2F5; 
+	border: 1px solid #CCCCCC; 
+	padding:6px 10px; 
+	color: #333333; 
+	font:12px/13px Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.tblcart-unitpres{ color:#333333; font:20px/22px Arial, Helvetica, sans-serif; font-weight:bold;}
+
+.btn-vcart{ display:block; float:left; width:112px; height:32px; background:url("../images/cart/cart.png") left top no-repeat;}
+
+.tblcart thead tr{ border:1px solid #CCCCCC}
+.tblcart thead tr th{ background:#EEEEEE; border:0px; 
+	color:#333333; font:11px/13px Arial, Helvetica, sans-serif; 
+	font-weight: bold; padding: 5px 9px;
+}
+
+.tblcart tbody tr td{
+	font:11px/13px Arial, Helvetica, sans-serif;
+	color:#666666;
+	text-align:center;
+	border-bottom:1px solid #DDDDDD;
+	padding:4px 10px;
+}
+
+a.lkremove{font:11px/13px Arial, Helvetica, sans-serif; text-transform: uppercase; font-weight:bold; color: #000000; text-decoration:none;}
+a.lkremove span{ color:#F86E0B;}
+
+.subtotals{ border:1px solid #DDDDDD; padding:0px 10px; overflow: hidden; font: 11px/13px Arial, Helvetica, sans-serif; text-transform:uppercase;}
+.subtotals .cpt{ text-align: right; color:#000000;}
+.subtotals .cpt span{ color:#666666; float:left;}
+.subtotals-impt{ background:#EEEEEE; color: #000000; padding:4px 10px; font: 11px/13px Arial, Helvetica, sans-serif; text-align:right;}
+
+.info-cart{ padding: 0px 10px; overflow: hidden; font: 11px/28px Arial, Helvetica, sans-serif; text-transform:uppercase; color: #000000;}
+.info-cart div{ float: left;} 
+
+
+

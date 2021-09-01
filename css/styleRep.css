@@ -1,0 +1,45 @@
+
+
+.tblRep {
+	color:black;
+	font-size:12px;
+	font-family:Arial;
+	width:100%;
+}
+
+body {
+	padding:46px 30px 60px 30px;
+}
+
+h1{ color:#5C86A0 !important;}
+
+.tblRep thead tr th {
+	background-color:#123C60;
+	text-align:center;
+	color:#588100;
+	font-size:13px;
+	border-bottom:1px solid #333333;
+	padding-bottom:3px;
+	text-transform:uppercase;
+}
+
+.tblRep tr td {
+	font-size:11px;
+	padding:3px 0px;
+	border-bottom:1px solid #CCCCCC;
+	color:#333333;
+}
+
+.tblRep .fila td {
+	/*padding:3px;*/
+	border:1px solid #123C60;
+}
+
+
+.tblRep tr.even {
+	background-color:#FFFFFF;
+}
+
+.tblRep tr.odd {
+	background-color:#E8F4FF;
+}

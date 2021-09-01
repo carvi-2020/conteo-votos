@@ -1,0 +1,135 @@
+.tblPaging {
+    width: 100%;
+    font-family:Arial;
+    text-align: center;
+    vertical-align: middle;
+    border-collapse: collapse; 
+}
+
+/*Para la fila del encabezado*/
+.tblPaging thead tr {
+	border-bottom:0px;
+	font:12px/14px Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+
+.tblPaging thead tr th {
+	background: #4D7100;
+	padding:5px 0px 5px 0px;
+	color:#FFFFFF;
+	text-align:center;
+	font-weight:bold;
+}
+
+.tblPaging thead tr th input{
+	background:#FFFFFF;
+	border:1px solid #4D7100;
+	font:11px/20px Arial, Helvetica, sans-serif;
+	font-style: italic;
+	padding:1px 4px;
+}
+
+.tblPaging thead tr th .clean-gray{
+	font-style:normal;
+	border:0px;
+	font-weight:bold;
+	-webkit-border-radius: 0px;
+  	-moz-border-radius: 0px;
+  	border-radius: 0px;
+}
+
+.tblPaging thead tr.filters th{
+	background:#567F00;
+}
+
+.tblPaging tbody tr {
+    border-bottom:1px solid #DDDDDD;
+}
+.tblPaging tbody tr .algLeft{ text-align:left;}
+
+/*Para cada celda de la fila impar*/
+.tblPaging tbody tr td {
+	padding:2px 12px;
+	font:12px/13px Arial, Helvetica, sans-serif;
+	color: #333333;
+	font-weight: bold;
+}
+
+.tblPaging tbody tr td p{ margin: 0px; line-height:14px;}
+
+.tblPaging tbody tr:hover {
+	/*background-color:#FAFAFA;*/
+	background-color:#EEEEEE;
+}
+
+.tblPaging tbody tr .inftd{
+	background-color: #FAFAFA;
+}
+
+.tblPaging tbody tr div.paging:hover, .tblPaging tbody tr div.paging {
+	background-color:white;
+	cursor:default;
+}
+
+.paging {
+	display: block;
+	text-align:center;
+	height: 22px;
+	line-height: 21px;
+	clear: both;
+	padding-top: 3px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	
+}
+
+.paging a:link, .paging a:visited {
+	padding:7px;
+	padding-top:2px;
+	padding-bottom:2px;
+	border:1px solid #D4D4D4;
+	margin-left:10px;
+	text-decoration:none;
+	background-color:#F5F5F5;
+	color:#4D7100;
+	width:22px;
+	font-weight:bold;
+}
+
+.paging a:hover {
+	background:#F2FFD9;
+	border:1px solid #72AA00;
+	color:#4D7100;	
+}
+
+.paging .active_tnt_link {
+	padding:7px;
+	padding-top:2px;
+	padding-bottom:2px;
+	border:1px solid #BBDDFF;
+	margin-left:10px;
+	text-decoration:none;
+	background-color:#DDEEFF;
+	color:#0072BC;
+	cursor:default;
+}
+
+.paging strong {
+	margin-left:10px;
+	color: #4D7100;
+}
+
+.paging .disabled_tnt_pagination {
+	padding:7px;
+	padding-top:2px;
+	padding-bottom:2px;
+	border:1px solid #EBEBEB;
+	margin-left:10px;
+	text-decoration:none;
+	background-color:#F5F5F5;
+	color:#D7D7D7;
+	cursor:default;
+}
+
+
